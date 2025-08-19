@@ -1,0 +1,9 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\Acer\\Telegram_bots\\Alien_BiBOT\\venv\\Scripts\\python.exe",
+    "python.analysis.extraPaths": [
+        "./venv/Lib/site-packages"
+    ],
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.diagnosticMode": "workspace",
+    "python.languageServer": "Pylance"
+}
