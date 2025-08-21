@@ -85,10 +85,10 @@ async def fill_balance_callback(callback: CallbackQuery):
             f"Balansınızı artırmaq üçün aşağıdakı karta ödəniş edin:\n\n"
             f"<b>Kart nömrəsi:</b> <code>{CARD_NUMBER}</code>\n\n"
             "<b>Paketlər və qiymətlər:</b>\n"
-            "10 RBCron — 1 AZN\n"
-            "100 RBCron — 5 AZN\n"
-            "300 RBCron — 10 AZN\n"
-            "1000 RBCron — 20 AZN\n\n"
+            "100 RBCron — 3 AZN\n"
+            "250 RBCron — 5 AZN\n"
+            "750 RBCron — 10 AZN\n"
+            "1500 RBCron — 20 AZN\n\n"
             f"💰 Cari balansınız: <b>{balance} RBCron</b>\n\n"
             "Ödəniş etdikdən sonra qəbzin şəklini buraya, mənə göndərin.\n"
             "Qəbz təsdiqləndikdən sonra balansınız artırılacaq.\n"
@@ -198,10 +198,10 @@ async def main_menu_callback(callback: CallbackQuery, state: FSMContext):
 async def send_receipt_to_admin(bot, user_id, photo_id):
     keyboard = InlineKeyboardMarkup(
         inline_keyboard=[
-            [InlineKeyboardButton(text="10 RBCron (1 AZN)", callback_data=f"balance_confirm_{user_id}_10")],
-            [InlineKeyboardButton(text="100 RBCron (5 AZN)", callback_data=f"balance_confirm_{user_id}_100")],
-            [InlineKeyboardButton(text="300 RBCron (10 AZN)", callback_data=f"balance_confirm_{user_id}_300")],
-            [InlineKeyboardButton(text="1000 RBCron (20 AZN)", callback_data=f"balance_confirm_{user_id}_1000")],
+            [InlineKeyboardButton(text="100 RBCron (3 AZN)", callback_data=f"balance_confirm_{user_id}_100")],
+            [InlineKeyboardButton(text="250 RBCron (5 AZN)", callback_data=f"balance_confirm_{user_id}_250")],
+            [InlineKeyboardButton(text="750 RBCron (10 AZN)", callback_data=f"balance_confirm_{user_id}_750")],
+            [InlineKeyboardButton(text="1500 RBCron (20 AZN)", callback_data=f"balance_confirm_{user_id}_1500")],
             [InlineKeyboardButton(text="Rədd et", callback_data=f"balance_reject_{user_id}")]
         ]
     )
@@ -211,10 +211,10 @@ async def send_receipt_to_admin(bot, user_id, photo_id):
         caption=(
             f"Balans artırmaq üçün yeni ödəniş: Telegram ID: {user_id}\n"
             "Ödəniş seçimləri:\n"
-            "10 RBCron — 1 AZN\n"
-            "100 RBCron — 5 AZN\n"
-            "300 RBCron — 10 AZN\n"
-            "1000 RBCron — 20 AZN"
+            "100 RBCron — 3 AZN\n"
+            "250 RBCron — 5 AZN\n"
+            "750 RBCron — 10 AZN\n"
+            "1500 RBCron — 20 AZN"
         ),
         reply_markup=keyboard
     )

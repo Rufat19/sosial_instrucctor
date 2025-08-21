@@ -21,10 +21,10 @@ async def send_receipt_to_admin(bot, user_id, photo_id):
         caption=(
             f"Balans artırmaq üçün yeni ödəniş:\n"
             f"Telegram ID: {user_id}\n"
-            "10 RBCron — 1 AZN\n"
-            "100 RBCron — 5 AZN\n"
-            "300 RBCron — 10 AZN\n"
-            "1000 RBCron — 20 AZN\n\n"
+            "100 RBCron — 3 AZN\n"
+            "250 RBCron — 5 AZN\n"
+            "750 RBCron — 10 AZN\n"
+            "1500 RBCron — 20 AZN\n\n"
         ),
         reply_markup=keyboard
     )
