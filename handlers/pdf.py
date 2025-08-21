@@ -19,7 +19,7 @@ async def get_pdf_menu(callback: CallbackQuery):
             [InlineKeyboardButton(text="🏠 Əsas menyuya qayıt", callback_data="main_menu")]
         ]
     )
-    await callback.message.answer("Bu da sizə bizim botun hədiyyəsi olsun:", reply_markup=keyboard)
+    await callback.message.answer("Alliendən hədiyyə:", reply_markup=keyboard)
     await callback.answer()
 
 # 📌 PDF göndərmək
