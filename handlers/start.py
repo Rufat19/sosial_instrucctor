@@ -30,7 +30,7 @@ def log_user_start(user_id):
 def get_main_buttons():
     return InlineKeyboardMarkup(
         inline_keyboard=[
-            [InlineKeyboardButton(text="⚡ Texniki biliklərini sınağa çək (Eng)", callback_data="fast_test_start")],
+            [InlineKeyboardButton(text="⚡ Əmsal Oyunu", callback_data="fast_test_start")],
             [InlineKeyboardButton(text="🏆 Ən yaxşı kanalı seç! 🏆", callback_data="channel_access_menu")],
             [InlineKeyboardButton(text="🌍 Dünya Görüşü- quiz paketlər", callback_data="quiz_world_menu")],
             [InlineKeyboardButton(text="📊 Power BI Sertifikat Testləri", callback_data="cert_menu")],
@@ -40,7 +40,7 @@ def get_main_buttons():
             [InlineKeyboardButton(text="🛠️ Bot sifarişi (depozit)", callback_data="order_bot")],
             [InlineKeyboardButton(text="💰 RBCron balansım", callback_data="balance_menu")],
             [InlineKeyboardButton(text="🌟 İstifadəçi rəyləri", callback_data="reviews_menu")],
-            [InlineKeyboardButton(text="ℹ️ Bot haqqında məlumat", callback_data="about_bot")]
+            [InlineKeyboardButton(text="ℹ️ Qəbul Mərkəzləri haqqında", callback_data="about_bot")]
         ]
     )
 
