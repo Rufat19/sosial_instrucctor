@@ -9,63 +9,93 @@ router = Router()
 
 # ===================== QUIZ SUALLARI =====================
 QUESTIONS = [
-    {"q": "Which file format is most commonly used for storing structured data in Data Science?", "options": ["JPG", "PDF", "CVS", "HTML"], "answer": 2},
-    {"q": "Which protocol is secure for web browsing?", "options": ["http", "https", "SNMP", "FTP"], "answer": 1},
-    {"q": "What does Excel Copilot use for contextual understanding?", "options": ["Macros", "NLP", "Rules", "Tables"], "answer": 0},
-    {"q": "Which of the following is NOT a type of malware?", "options": ["Worm", "Phishing", "Trojan", "Ransomware"], "answer": 1},
-    {"q": "What’s the most common cause of security breaches?", "options": ["Weak passwords", "Unpatched software", "Insider threats", "Phishing attacks"], "answer": 3},
-    {"q": "What can be used to automatically fill patterns?", "options": ["Custom Sort", "Data validation", "Fill Handle", "Flash Fill"], "answer": 3},
-    {"q": "Which Data Science technique helps identify patterns in large datasets?", "options": ["Splitting", "Mining", "Looping", "Fitting"], "answer": 1},
-    {"q": "Which tool allows you to solve equations or optimize values in Excel?", "options": ["Flash Fill", "Solver", "Data Table", "Scenario Manager"], "answer": 1},
-    {"q": "𝗪𝗵𝗮𝘁 𝗱𝗼𝗲𝘀 𝗮 𝗱𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝗮𝗰𝘁𝘂𝗮𝗹𝗹𝘆 𝘀𝘁𝗼𝗿𝗲?", "options": ["Queries", "Tables", "Files", "Data"], "answer": 3},
-    {"q": "Which feature splits full names into first and last?", "options": ["Filter", "Flash Fill", "CONCAT", "Solver"], "answer": 1},
-    {"q": "In SQL, which clause is evaluated first in a SELECT statement ?", "options": ["Select", "From", "Group By", "Where"], "answer": 1},
-    {"q": "What does Power Query allow analytics to do in Excel?", "options": ["Create charts", "Write VBA macros", "Transform & clean data", "Record keyboard shortcuts"], "answer": 2},
-    {"q": "What type of variable is “Customer Gender”?", "options": ["Numerical", "Interval", "Categorical", "Ordinal"], "answer": 2},
-    {"q": "What is the output of: print(3 ** 3)?", "options": ["27", "243", "81", "9"], "answer": 0},
-    {"q": "Which standard defines requirements for information security management systems?", "options": ["SOC 2", "HIPAA", "ISO 27001", "GPDR"], "answer": 2},
-    {"q": "which port is commonly used for HTTPS communication", "options": ["443", "22", "80", "21"], "answer": 0},
-    {"q": "What will be the output of the following Python code? def status(): print(flag) flag = True status()", "options": ["Error", "True", "status", "False"], "answer": 1},
-    {"q": "Which type of malware is designed to replicate itself and spread?", "options": ["Spyware", "Ransomware", "Trojan", "Worm"], "answer": 3},
-    {"q": "Which of the following is a data type in Python?", "options": ["String", "Field", "Table", "Sheet"], "answer": 0},
-    {"q": "What does the type() function return in Python?", "options": ["value", "class", "string", "object"], "answer": 1},
-    {"q": "Which of the following tools helps restrict data input in a cell?", "options": ["Conditional Formatting", "Goal Seek", "Data Validation", "Conditional Formatting"], "answer": 2},
-    {"q": "What does the “Flash Fill” feature do in Excel?", "options": ["Deletes blank cells", "Sorts a list automatically", "Fills values base on a pattern", "Merges two columns"], "answer": 2},
-    {"q": "What tool prevents duplicate entry?", "options": ["Data Bars", "Data Validation", "Goal Seek", "Flash Fill"], "answer": 1},
-    {"q": "Which of the following is a social engineering technique?", "options": ["Man-in-the-middle attack", "Sql injection", "Phishing", "Brute-force attack"], "answer": 2},
-    {"q": "In SQL, which function is used to concatenate two strings?", "options": ["APPEND", "CONCAT", "JOİN", "MERGE"], "answer": 1},
-    {"q": "Which term defines the acceptable downtime for a system?", "options": ["RPO", "RTO", "MTD", "SLA"], "answer": 1},
-    {"q": "What does =A1&' '&B1 do?", "options": ["Returns blank", "Multiplies cells", "Adds values", "Joins with space"], "answer": 3},
-    {"q": "What will be the output of the following Python code? def add_five(n): n += 5 value = 10 add_five(value) print(value)", "options": ["15", "5", "Error", "10"], "answer": 0},
-    {"q": "Which function finds a value by row and column?", "options": ["MATCH", "VLOOKUP", "OFFSET", "INDEX"], "answer": 1},
-    {"q": "Which Excel feature allows you to restrict user input in a cell?", "options": ["Filters", "Goal Seek", "Conditional Formatting", "Data Validation"], "answer": 3},
-    {"q": "Which function can be used to count cells based on a condition?", "options": ["LET", "COUNTİF", "İF", "SUM"], "answer": 1},
-    {"q": "What kind of attack floods a system with traffic to overload resources?", "options": ["SQL Injection", "Man-in-the-middle", "DDoS Attack", "Keylogging"], "answer": 2},
-    {"q": "Which port does SNMP use?", "options": ["25", "143", "443", "161"], "answer": 3},
-    {"q": "Which function returns a table with a single column of all dates between a start and end date?", "options": ["CALENDAR()", "DATESBETWEEN()", "DATEVALUE()", "EDATE()"], "answer": 1},
-    {"q": "What kind of attack involves tricking users into revealing confidential information?", "options": ["Social engineering", "Phishing", "Brute force", "DDoS"], "answer": 0},
-    {"q": "What is a bug bounty program?", "options": ["Sell bugs", "Find & report bugs", "Delete malware", "Hire hackers"], "answer": 1},
-    {"q": "Which function returns the number of working days between two dates?", "options": ["WORKDAY", "DAYS", "NETWORKDAYS", "DATEDIF"], "answer": 2},
-    {"q": "Which AI-powered feature replaces manual insights discovery?", "options": ["Power View", "Power Map", "Analyze Data", "Goal Seek"], "answer": 2},
-    {"q": "What’s the advantage of XLOOKUP over VLOOKUP?", "options": ["It only works with tables", "Supports vertical lookup only", "Can return multi colms at once", "It works only with ranges"], "answer": 2},
-    {"q": "What does VLOOKUP default to if the last argument (range_lookup) is omitted?", "options": ["FALSE (exact match)", "It throws an error", "#N/A", "TRUE (approximate match)"], "answer": 3},
-    {"q": "Which algorithm is commonly used for clustering?", "options": ["Decision Tree", "K-Means", "Random Forest", "Linear Regression"], "answer": 1},
-    {"q": "What is DSE (Driver Signature Enforcement) in Windows?", "options": ["Dynamic shell escape", "DNS sinkhole engine", "Driver signature check", "Disk sector erasure"], "answer": 2},
-    {"q": "Which Microsoft Azure tool works like a SIEM?", "options": ["Azure Key Vault", "Azure Sentinel", "Azure Firewall", "Azure Defender"], "answer": 0},
-    {"q": "Which SQL clause is used to filter records?", "options": ["ORDER BY", "FILTER", "SELECT", "WHERE"], "answer": 3},
-    {"q": "What is the default sorting order in ORDER BY?", "options": ["DESC", "ASC", "RANDOM", "None"], "answer": 1},
-    {"q": "Which function adds up values based on a single condition?", "options": ["SUMIFS", "SUMIF", "COUNTIF", "ADDIF"], "answer": 1},
-    {"q": "What is required to access AI Copilot in Excel?", "options": ["Office 2021", "Excel Online", "M365 subscription", "Windows 7"], "answer": 2},
-    {"q": "What is the purpose of 'Calculated Field' in PivotTable?", "options": ["Perform calc. outside PvtTable", "+custom formulas in PivotTable", "Adds a new worksheet", "Deletes a column"], "answer": 1},
-    {"q": "In Excel, which keyboard shortcut is used to create a new worksheet?", "options": ["Ctrl + N", "Shift + F11", "Alt + N", "Ctrl + W"], "answer": 0},
-    {"q": "Which SQL constraint ensures a column cannot have NULL values?", "options": ["UNIQUE", "INDEX", "NOTNULL", "CHECK"], "answer": 2},
+    {"q": "2007-ci ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["8.3%", "16.7%", "20.8%", "12.4%"], "answer": 0},
+    {"q": "2008-ci ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["20.8%", "16.7%", "11.4%", "3.4%"], "answer": 1},
+    {"q": "2009-cu ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["16.7%", "20.8%", "14.7%", "11.2%"], "answer": 1},
+    {"q": "2010-cu ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["1.5%", "3%", "5.7%", "7.9%"], "answer": 0},
+    {"q": "2011-ci ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["5.7%", "7.9%", "4%", "12.4%"], "answer": 0},
+    {"q": "2012-ci ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["1.1%", "7.9%", "2.4%", "4%"], "answer": 1},
+    {"q": "2013-cü ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["1.1%", "2.4%", "4.0%", "3%"], "answer": 0},
+    {"q": "2014-cü ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["2.4%", "4.0%", "1.4%", "5.7%"], "answer": 0},
+    {"q": "2015-ci ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["1.4%", "3%", "4%", "11.2%"], "answer": 0},
+    {"q": "2016-cı ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["1.4%", "7.9%", "1.1%", "11.4%"], "answer": 0},
+    {"q": "2017-ci ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["12.4%", "5.7%", "7.9%", "3%"], "answer": 0},
+    {"q": "2018-ci ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["5.7%", "12.4%", "4%", "3.4%"], "answer": 0},
+    {"q": "2019-cu ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["3%", "11.4%", "8.1%", "14.7%"], "answer": 0},
+    {"q": "2020-ci ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["16.6%", "11.4%", "14.7%", "3.4%"], "answer": 0},
+    {"q": "2021-ci ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["11.4%", "3.4%", "14.7%", "8.1%"], "answer": 0},
+    {"q": "2022-ci ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["3.4%", "11.4%", "8.1%", "12.4%"], "answer": 0},
+    {"q": "2023-cü ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["14.7%", "11.2%", "8.1%", "3.4%"], "answer": 0},
+    {"q": "2024-cü ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["11.2%", "14.7%", "8.1%", "3%"], "answer": 0},
+    {"q": "2025-ci ildə pensiyanın sığorta hissəsinin neçə faiz indeksləşdirilərək artırıldı?", "options": ["8.1%", "11.2%", "14.7%", "3.4%"], "answer": 0},
+    {"q": "2019-cu ildə istifadə olunmamış kapital neçə faiz indeksləşdirilərək artırıldı?", "options": ["5.01%", "5.29%", "5.14%", "6.43%"], "answer": 0},
+    {"q": "2020-ci ildə istifadə olunmamış kapital neçə faiz indeksləşdirilərək artırıldı?", "options": ["5.14%", "5.01%", "5.29%", "6.43%"], "answer": 0},
+    {"q": "2021-ci ildə istifadə olunmamış kapital neçə faiz indeksləşdirilərək artırıldı?", "options": ["5.29%", "5.14%", "5.64%", "6.43%"], "answer": 0},
+    {"q": "2022-ci ildə istifadə olunmamış kapital neçə faiz indeksləşdirilərək artırıldı?", "options": ["5.64%", "5.29%", "5.14%", "8.8%"], "answer": 0},
+    {"q": "2023-cü ildə istifadə olunmamış kapital neçə faiz indeksləşdirilərək artırıldı?", "options": ["6.43%", "5.64%", "5.14%", "2.2%"], "answer": 0},
+    {"q": "2024-cü ildə istifadə olunmamış kapital neçə faiz indeksləşdirilərək artırıldı?", "options": ["8.8%", "6.43%", "5.64%", "5.29%"], "answer": 0},
+    {"q": "2025-ci ildə istifadə olunmamış kapital neçə faiz indeksləşdirilərək artırıldı?", "options": ["2.2%", "5.01%", "6.43%", "5.64%"], "answer": 0},
+     # 🧾 Minimum əməkhaqqı
+    {"q": "2022-ci ildə Azərbaycanda minimum əməkhaqqı neçə manat idi?", 
+     "options": ["250 manat", "300 manat", "345 manat", "400 manat"], 
+     "answer": 1},
+    {"q": "2023-cü ildə minimum əməkhaqqı neçə manat müəyyən edilmişdi?", 
+     "options": ["300 manat", "345 manat", "375 manat", "400 manat"], 
+     "answer": 1},
+    {"q": "2025-ci ildən etibarən işçilərin minimum əməkhaqqı neçə manatdan az ola bilməz?", 
+     "options": ["345 manat", "370 manat", "400 manat", "420 manat"], 
+     "answer": 2},
+    # 🌍 Ümumi yaşayış minimumu
+    {"q": "2021-ci il üçün ölkə üzrə yaşayış minimumu neçə manat müəyyən edilmişdi?", 
+     "options": ["185 manat", "196 manat", "207 manat", "210 manat"], 
+     "answer": 1},
+    {"q": "2023-cü ildə ölkə üzrə yaşayış minimumu neçə manat idi?", 
+     "options": ["210 manat", "220 manat", "246 manat", "270 manat"], 
+     "answer": 2},
+    {"q": "2025-ci ildə ölkə üzrə yaşayış minimumu neçə manat müəyyən edilib?", 
+     "options": ["270 manat", "275 manat", "280 manat", "285 manat"], 
+     "answer": 3},
+    # 👨‍🏭 Əmək qabiliyyətli əhali üçün
+    {"q": "2022-ci ildə əmək qabiliyyətli əhali üçün yaşayış minimumu neçə manat idi?", 
+     "options": ["207 manat", "220 manat", "261 manat", "287 manat"], 
+     "answer": 1},
+    {"q": "2024-cü ildə əmək qabiliyyətli əhali üçün yaşayış minimumu neçə manat müəyyən edilmişdi?", 
+     "options": ["261 manat", "270 manat", "287 manat", "305 manat"], 
+     "answer": 2},
+    {"q": "2025-ci ildə əmək qabiliyyətli əhali üçün yaşayış minimumu neçə manatdır?", 
+     "options": ["287 manat", "295 manat", "305 manat", "315 manat"], 
+     "answer": 2},
+    # 👴 Pensiyaçılar üçün
+    {"q": "2021-ci ildə pensiyaçılar üçün yaşayış minimumu neçə manat idi?", 
+     "options": ["160 manat", "162 manat", "165 manat", "175 manat"], 
+     "answer": 1},
+    {"q": "2023-cü ildə pensiyaçılar üçün yaşayış minimumu neçə manat müəyyən edilmişdi?", 
+     "options": ["199 manat", "207 manat", "222 manat", "232 manat"], 
+     "answer": 0},
+    {"q": "2025-ci ildə pensiyaçılar üçün yaşayış minimumu neçə manatdır?", 
+     "options": ["222 manat", "230 manat", "232 manat", "240 manat"], 
+     "answer": 2},
+    # 👶 Uşaqlar üçün
+    {"q": "2021-ci ildə uşaqlar üçün yaşayış minimumu neçə manat idi?", 
+     "options": ["162 manat", "175 manat", "193 manat", "220 manat"], 
+     "answer": 1},
+    {"q": "2022-ci ildə uşaqlar üçün yaşayış minimumu neçə manat idi?", 
+     "options": ["175 manat", "193 manat", "220 manat", "235 manat"], 
+     "answer": 1},
+    {"q": "2025-ci ildə uşaqlar üçün yaşayış minimumu neçə manat müəyyən edilmişdir?", 
+     "options": ["235 manat", "240 manat", "246 manat", "250 manat"], 
+     "answer": 2},
 ]
 
 FUN_FACTS = [
-    "💡 Fun Fact: Excel-də Ctrl + Z ilə səhvləri düzəldə bilərsiniz!",
-    "😂 Trivia: Python yılan deyil, proqramlaşdırma dili!",
-    "😎 Hint: VLOOKUP-un gücü gözlə görünmür, amma möcüzədir.",
-    "📊 Data Science = Magiya? Yox, yalnız statistika!"
+    "💡 Bilirdinizmi? Azərbaycanda pensiya artımları hər il əvvəlki ilin orta aylıq əməkhaqqı artım tempinə əsasən indeksləşdirilir!",
+    "😎 Sosial trivia: Pensiya kartını itirsəniz, DOST mərkəzinə müraciət etsəniz, 10 dəqiqəyə yenisini sifariş edə bilərsiniz!",
+    "📊 Əyləncəli fakt: Əmək pensiyası hesablananda hər il üçün fərqli sığorta kapitalı əmsalı tətbiq olunur – bəli, bu bir az riyaziyyat kimidir!",
+    "🧠 Sosial fakt: Əgər pensiyaçı işləyirsə, işdən çıxma zamanı və yaxud hər 6 ildən bir sığorta hissəsi yenidən hesablanır və artım baş verir – işləmək həm də pensiyanı artırır!",
+    "😂 Sosial zarafat: Ünvanlı yardımda ailə üzvlərini yazmağı unutsan, sistem səni yazacaq – amma kömək etməyəcək!",
+    "💬 Fun Fact: DOST Agentliyinin adı təsadüfi deyil — hərfi mənada “Dayanıqlı Operativ Sosial Təminat” deməkdir!",
+    "🪙 Maraqlıdır ki, sosial ödənişlərdəki 1% dəyişiklik minlərlə insanın gəlirinə təsir göstərir.",
+    "📅 Sosial trivia: 2019-cu ildən bəri pensiya artımları avtomatlaşdırılmış sistemlə hesablanır — insan səhvi sıfır!"
 ]
 
 BONUS_VALUES = [0]
@@ -107,22 +137,56 @@ async def send_question(message_or_callback, state: FSMContext):
 
 @router.callback_query(F.data.startswith("ans_"))
 async def answer_handler(callback: CallbackQuery, state: FSMContext):
-    _, qnum, chosen = callback.data.split("_")
-    qnum = int(qnum)
-    chosen = int(chosen)
+    # Safely parse callback data: expected format ans_<qnum>_<chosen>
+    try:
+        parts = callback.data.split("_")
+        if len(parts) != 3:
+            raise ValueError("invalid callback format")
+        _, qnum_s, chosen_s = parts
+        qnum = int(qnum_s)
+        chosen = int(chosen_s)
+    except Exception:
+        await callback.answer("Cavab qəbul edilə bilmədi (keçmiş/yanlış məlumat). Testi yenidən başladın.", show_alert=True)
+        return
+
     data = await state.get_data()
-    questions = data.get("questions", [])
-    correct = questions[qnum]["answer"]
+    questions = data.get("questions") or []
+
+    # If questions are missing (state cleared or expired), inform user
+    if not questions:
+        await callback.answer("Suallar tapılmadı və ya test bitib. /quiz ilə yenidən başlayın.", show_alert=True)
+        await state.clear()
+        return
+
+    # Validate qnum bounds
+    if qnum < 0 or qnum >= len(questions):
+        await callback.answer("Bu sual artıq etibarsızdır. Testi yenidən başlatmağı yoxlayın.", show_alert=True)
+        await state.clear()
+        return
+
+    qitem = questions[qnum]
+    options = qitem.get("options", [])
+    if chosen < 0 or chosen >= len(options):
+        await callback.answer("Seçim etibarsızdır.", show_alert=True)
+        return
+
+    correct = qitem.get("answer")
     prev_msg_id = data.get("prev_msg_id")
+
     if chosen == correct:
-        await callback.answer(f"✅ Doğru! 🎉\n{random.choice(FUN_FACTS)}", show_alert=True)
+        await callback.answer(f"✅ Doğru!\n{random.choice(FUN_FACTS)}", show_alert=True)
     else:
-        await callback.answer(f"❌ Yanlış! 😅\n{random.choice(FUN_FACTS)}", show_alert=True)
+        await callback.answer(f"❌ Yanlış!\n{random.choice(FUN_FACTS)}", show_alert=True)
+
+    # Try to delete previous question message (best-effort)
     if prev_msg_id:
         try:
-            await callback.bot.delete_message(callback.from_user.id, prev_msg_id)
-        except:
+            chat_id = callback.message.chat.id if callback.message else callback.from_user.id
+            await callback.bot.delete_message(chat_id, prev_msg_id)
+        except Exception:
             pass
+
+    # Advance and send next question
     await state.update_data(current=qnum+1)
     await send_question(callback, state)
 
