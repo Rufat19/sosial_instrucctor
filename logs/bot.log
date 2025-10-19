@@ -1,0 +1,795 @@
+2025-10-19 17:49:23,120 | INFO | __main__ | Program başladı
+2025-10-19 17:49:23,122 | INFO | __main__ | Bot yaradılır...
+2025-10-19 17:50:35,571 | INFO | __main__ | Program başladı
+2025-10-19 17:50:35,572 | INFO | __main__ | Bot yaradılır...
+2025-10-19 17:50:35,621 | INFO | __main__ | Dispatcher yaradılır...
+2025-10-19 17:50:35,622 | INFO | __main__ | Router-lar əlavə olunur...
+2025-10-19 17:50:35,671 | INFO | __main__ | Bot işə düşür...
+2025-10-19 17:50:35,672 | INFO | aiogram.dispatcher | Start polling
+2025-10-19 17:50:36,005 | INFO | aiogram.dispatcher | Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 17:51:20,845 | INFO | aiogram.event | Update id=252540338 is handled. Duration 515 ms by bot id=7809406510
+2025-10-19 17:51:22,273 | INFO | aiogram.event | Update id=252540339 is handled. Duration 233 ms by bot id=7809406510
+2025-10-19 17:51:26,480 | INFO | aiogram.event | Update id=252540340 is not handled. Duration 16 ms by bot id=7809406510
+2025-10-19 17:51:31,172 | INFO | aiogram.event | Update id=252540341 is not handled. Duration 0 ms by bot id=7809406510
+2025-10-19 17:52:04,520 | INFO | aiogram.event | Update id=252540342 is handled. Duration 593 ms by bot id=7809406510
+2025-10-19 17:52:06,876 | INFO | aiogram.event | Update id=252540343 is handled. Duration 250 ms by bot id=7809406510
+2025-10-19 17:52:08,429 | INFO | aiogram.event | Update id=252540344 is handled. Duration 250 ms by bot id=7809406510
+2025-10-19 17:52:12,124 | INFO | aiogram.event | Update id=252540346 is handled. Duration 235 ms by bot id=7809406510
+2025-10-19 17:52:20,094 | INFO | aiogram.event | Update id=252540345 is handled. Duration 10375 ms by bot id=7809406510
+2025-10-19 18:23:32,142 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-19 18:23:32,144 | WARNING | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7809406510)
+2025-10-19 18:23:44,660 | INFO | aiogram.dispatcher | Connection established (tryings = 1, bot id = 7809406510)
+2025-10-19 18:23:47,084 | INFO | aiogram.dispatcher | Polling stopped for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 18:23:47,085 | INFO | aiogram.dispatcher | Polling stopped
+2025-10-19 18:23:52,336 - [INFO] - __main__ - Program başladı
+2025-10-19 18:23:52,337 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 18:23:52,356 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 18:23:52,358 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 18:23:52,365 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 18:23:52,366 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 18:23:52,743 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 18:26:53,302 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-19 18:26:53,306 - [WARNING] - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7809406510)
+2025-10-19 18:27:05,090 - [INFO] - aiogram.dispatcher - Connection established (tryings = 1, bot id = 7809406510)
+2025-10-19 18:40:24,027 - [INFO] - aiogram.dispatcher - Polling stopped
+2025-10-19 18:40:24,030 - [INFO] - aiogram.dispatcher - Polling stopped for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 18:40:31,267 - [INFO] - __main__ - Program başladı
+2025-10-19 18:40:31,268 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 18:40:31,296 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 18:40:31,300 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 18:40:31,308 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 18:40:31,309 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 18:40:31,310 - [INFO] - __main__ - Background tasks scheduled
+2025-10-19 18:40:31,311 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 18:40:31,663 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 18:40:31,722 - [INFO] - background_tasks - Avtomatik mesaj göndərildi.
+2025-10-19 18:44:31,013 - [INFO] - aiogram.dispatcher - Polling stopped for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 18:44:31,014 - [INFO] - aiogram.dispatcher - Polling stopped
+2025-10-19 18:44:37,420 - [INFO] - __main__ - Program başladı
+2025-10-19 18:44:37,421 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 18:44:37,459 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 18:44:37,462 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 18:44:37,478 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 18:44:37,479 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 18:44:37,481 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 70, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 18:44:37,486 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 18:44:37,824 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 18:45:16,541 - [INFO] - aiogram.event - Update id=252540347 is handled. Duration 359 ms by bot id=7809406510
+2025-10-19 18:45:21,895 - [INFO] - aiogram.event - Update id=252540348 is handled. Duration 155 ms by bot id=7809406510
+2025-10-19 18:46:32,952 - [INFO] - aiogram.dispatcher - Polling stopped
+2025-10-19 18:46:32,953 - [INFO] - aiogram.dispatcher - Polling stopped for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 18:46:42,472 - [INFO] - __main__ - Program başladı
+2025-10-19 18:46:42,472 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 18:46:42,493 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 18:46:42,495 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 18:46:42,506 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 18:46:42,507 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 18:46:42,508 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 70, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 18:46:42,510 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 18:46:42,823 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 18:47:22,257 - [INFO] - aiogram.event - Update id=252540349 is handled. Duration 500 ms by bot id=7809406510
+2025-10-19 18:47:24,906 - [INFO] - aiogram.event - Update id=252540350 is handled. Duration 296 ms by bot id=7809406510
+2025-10-19 18:47:29,163 - [INFO] - aiogram.event - Update id=252540351 is handled. Duration 234 ms by bot id=7809406510
+2025-10-19 18:47:48,635 - [INFO] - background_tasks - Yeni istifadəçilər üçün fon izləmə başladı.
+2025-10-19 18:47:48,794 - [INFO] - aiogram.event - Update id=252540352 is handled. Duration 562 ms by bot id=7809406510
+2025-10-19 19:11:05,568 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-19 19:11:05,776 - [WARNING] - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7809406510)
+2025-10-19 19:11:17,372 - [INFO] - aiogram.dispatcher - Connection established (tryings = 1, bot id = 7809406510)
+2025-10-19 19:18:56,652 - [INFO] - aiogram.dispatcher - Polling stopped
+2025-10-19 19:18:56,655 - [INFO] - aiogram.dispatcher - Polling stopped for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 19:19:04,191 - [INFO] - __main__ - Program başladı
+2025-10-19 19:19:04,192 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 19:19:04,234 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 19:19:04,237 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 19:19:04,252 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 19:19:04,255 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 19:19:04,258 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 70, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 19:19:04,261 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 19:19:04,687 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 19:19:22,130 - [INFO] - aiogram.event - Update id=252540353 is handled. Duration 375 ms by bot id=7809406510
+2025-10-19 19:19:27,093 - [INFO] - aiogram.event - Update id=252540354 is handled. Duration 171 ms by bot id=7809406510
+2025-10-19 19:20:33,579 - [INFO] - aiogram.dispatcher - Polling stopped
+2025-10-19 19:20:33,581 - [INFO] - aiogram.dispatcher - Polling stopped for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 19:20:42,959 - [INFO] - __main__ - Program başladı
+2025-10-19 19:20:42,960 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 19:20:42,998 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 19:20:43,003 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 19:20:43,014 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 19:20:43,016 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 19:20:43,017 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 70, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 19:20:43,020 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 19:20:43,339 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 19:20:43,831 - [INFO] - aiogram.event - Update id=252540355 is handled. Duration 343 ms by bot id=7809406510
+2025-10-19 19:20:48,577 - [INFO] - aiogram.event - Update id=252540356 is handled. Duration 250 ms by bot id=7809406510
+2025-10-19 19:20:50,951 - [INFO] - aiogram.event - Update id=252540357 is handled. Duration 218 ms by bot id=7809406510
+2025-10-19 19:20:52,857 - [INFO] - aiogram.event - Update id=252540358 is handled. Duration 125 ms by bot id=7809406510
+2025-10-19 19:22:33,246 - [INFO] - aiogram.event - Update id=252540359 is handled. Duration 469 ms by bot id=7809406510
+2025-10-19 19:22:41,976 - [INFO] - aiogram.event - Update id=252540360 is handled. Duration 156 ms by bot id=7809406510
+2025-10-19 19:22:46,558 - [INFO] - aiogram.event - Update id=252540361 is handled. Duration 156 ms by bot id=7809406510
+2025-10-19 19:22:48,395 - [INFO] - aiogram.event - Update id=252540362 is handled. Duration 108 ms by bot id=7809406510
+2025-10-19 19:23:08,531 - [INFO] - aiogram.event - Update id=252540363 is handled. Duration 391 ms by bot id=7809406510
+2025-10-19 19:23:11,052 - [INFO] - aiogram.event - Update id=252540364 is handled. Duration 562 ms by bot id=7809406510
+2025-10-19 19:23:12,700 - [INFO] - aiogram.event - Update id=252540365 is handled. Duration 452 ms by bot id=7809406510
+2025-10-19 19:23:17,504 - [INFO] - aiogram.event - Update id=252540366 is handled. Duration 141 ms by bot id=7809406510
+2025-10-19 19:25:52,039 - [INFO] - aiogram.dispatcher - Polling stopped
+2025-10-19 19:25:52,041 - [INFO] - aiogram.dispatcher - Polling stopped for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 19:27:02,629 - [INFO] - __main__ - Program başladı
+2025-10-19 19:27:02,630 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 19:27:02,658 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 19:27:02,662 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 19:27:02,674 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 19:27:02,675 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 19:27:02,676 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 70, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 19:27:02,677 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 19:27:02,991 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 19:27:03,661 - [INFO] - aiogram.event - Update id=252540367 is handled. Duration 546 ms by bot id=7809406510
+2025-10-19 19:27:13,826 - [INFO] - aiogram.event - Update id=252540368 is handled. Duration 234 ms by bot id=7809406510
+2025-10-19 19:27:16,275 - [INFO] - aiogram.event - Update id=252540369 is handled. Duration 312 ms by bot id=7809406510
+2025-10-19 19:27:19,004 - [INFO] - aiogram.event - Update id=252540370 is handled. Duration 375 ms by bot id=7809406510
+2025-10-19 19:27:20,997 - [INFO] - aiogram.event - Update id=252540371 is handled. Duration 266 ms by bot id=7809406510
+2025-10-19 19:27:23,682 - [INFO] - aiogram.event - Update id=252540372 is handled. Duration 109 ms by bot id=7809406510
+2025-10-19 19:27:29,197 - [INFO] - aiogram.event - Update id=252540373 is handled. Duration 155 ms by bot id=7809406510
+2025-10-19 19:27:55,099 - [INFO] - aiogram.event - Update id=252540374 is handled. Duration 358 ms by bot id=7809406510
+2025-10-19 19:29:36,296 - [INFO] - aiogram.dispatcher - Polling stopped
+2025-10-19 19:29:36,299 - [INFO] - aiogram.dispatcher - Polling stopped for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 19:29:42,741 - [INFO] - __main__ - Program başladı
+2025-10-19 19:29:42,742 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 19:29:42,758 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 19:29:42,760 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 19:29:42,770 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 19:29:42,772 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 19:29:42,773 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 70, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 19:29:42,774 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 19:29:43,147 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 19:30:06,691 - [INFO] - aiogram.event - Update id=252540375 is handled. Duration 344 ms by bot id=7809406510
+2025-10-19 19:30:10,872 - [INFO] - aiogram.event - Update id=252540376 is handled. Duration 157 ms by bot id=7809406510
+2025-10-19 19:30:12,287 - [INFO] - aiogram.event - Update id=252540377 is handled. Duration 546 ms by bot id=7809406510
+2025-10-19 19:30:12,650 - [INFO] - aiogram.event - Update id=252540378 is handled. Duration 280 ms by bot id=7809406510
+2025-10-19 19:30:18,817 - [INFO] - aiogram.event - Update id=252540379 is handled. Duration 15 ms by bot id=7809406510
+2025-10-19 19:30:24,899 - [INFO] - aiogram.event - Update id=252540380 is handled. Duration 0 ms by bot id=7809406510
+2025-10-19 19:30:40,141 - [INFO] - aiogram.event - Update id=252540381 is handled. Duration 0 ms by bot id=7809406510
+2025-10-19 19:30:40,937 - [INFO] - aiogram.event - Update id=252540382 is handled. Duration 0 ms by bot id=7809406510
+2025-10-19 19:31:11,812 - [INFO] - aiogram.event - Update id=252540383 is handled. Duration 0 ms by bot id=7809406510
+2025-10-19 19:31:54,695 - [INFO] - aiogram.dispatcher - Polling stopped
+2025-10-19 19:31:54,698 - [INFO] - aiogram.dispatcher - Polling stopped for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 19:32:01,389 - [INFO] - __main__ - Program başladı
+2025-10-19 19:32:01,390 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 19:32:01,408 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 19:32:01,411 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 19:32:01,416 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 19:32:01,417 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 19:32:01,418 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 70, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 19:32:01,419 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 19:32:01,717 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 19:32:07,684 - [INFO] - aiogram.event - Update id=252540384 is handled. Duration 484 ms by bot id=7809406510
+2025-10-19 19:32:10,131 - [INFO] - aiogram.event - Update id=252540385 is handled. Duration 296 ms by bot id=7809406510
+2025-10-19 19:32:14,028 - [INFO] - aiogram.event - Update id=252540386 is handled. Duration 296 ms by bot id=7809406510
+2025-10-19 19:32:22,336 - [INFO] - aiogram.event - Update id=252540387 is handled. Duration 15 ms by bot id=7809406510
+2025-10-19 19:32:23,975 - [INFO] - aiogram.event - Update id=252540388 is handled. Duration 16 ms by bot id=7809406510
+2025-10-19 19:32:25,558 - [INFO] - aiogram.event - Update id=252540389 is handled. Duration 0 ms by bot id=7809406510
+2025-10-19 19:32:26,031 - [INFO] - aiogram.event - Update id=252540390 is handled. Duration 0 ms by bot id=7809406510
+2025-10-19 19:32:26,601 - [INFO] - aiogram.event - Update id=252540391 is handled. Duration 16 ms by bot id=7809406510
+2025-10-19 19:32:27,291 - [INFO] - aiogram.event - Update id=252540392 is handled. Duration 0 ms by bot id=7809406510
+2025-10-19 19:46:48,889 - [INFO] - aiogram.event - Update id=252540393 is handled. Duration 0 ms by bot id=7809406510
+2025-10-19 19:46:51,029 - [INFO] - aiogram.event - Update id=252540394 is handled. Duration 0 ms by bot id=7809406510
+2025-10-19 19:49:33,277 - [INFO] - aiogram.event - Update id=252540395 is handled. Duration 0 ms by bot id=7809406510
+2025-10-19 19:49:35,540 - [INFO] - aiogram.event - Update id=252540396 is handled. Duration 16 ms by bot id=7809406510
+2025-10-19 19:51:09,726 - [INFO] - aiogram.dispatcher - Polling stopped
+2025-10-19 19:51:09,728 - [INFO] - aiogram.dispatcher - Polling stopped for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 19:51:15,218 - [INFO] - __main__ - Program başladı
+2025-10-19 19:51:15,218 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 19:51:15,233 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 19:51:15,235 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 19:51:15,241 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 19:51:15,242 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 19:51:15,243 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 70, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 19:51:15,244 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 19:51:15,590 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 19:51:16,068 - [INFO] - aiogram.event - Update id=252540397 is handled. Duration 344 ms by bot id=7809406510
+2025-10-19 19:51:20,131 - [INFO] - aiogram.event - Update id=252540398 is handled. Duration 156 ms by bot id=7809406510
+2025-10-19 19:51:37,225 - [INFO] - aiogram.event - Update id=252540399 is handled. Duration 312 ms by bot id=7809406510
+2025-10-19 19:51:39,714 - [INFO] - aiogram.event - Update id=252540400 is handled. Duration 234 ms by bot id=7809406510
+2025-10-19 19:51:42,435 - [INFO] - aiogram.event - Update id=252540401 is handled. Duration 516 ms by bot id=7809406510
+2025-10-19 19:51:43,797 - [INFO] - aiogram.event - Update id=252540402 is handled. Duration 593 ms by bot id=7809406510
+2025-10-19 19:51:46,245 - [INFO] - aiogram.event - Update id=252540403 is handled. Duration 219 ms by bot id=7809406510
+2025-10-19 19:51:48,006 - [INFO] - aiogram.event - Update id=252540404 is handled. Duration 233 ms by bot id=7809406510
+2025-10-19 19:51:49,541 - [INFO] - aiogram.event - Update id=252540405 is handled. Duration 250 ms by bot id=7809406510
+2025-10-19 19:51:52,244 - [INFO] - aiogram.event - Update id=252540406 is handled. Duration 265 ms by bot id=7809406510
+2025-10-19 19:51:56,109 - [INFO] - aiogram.event - Update id=252540407 is handled. Duration 405 ms by bot id=7809406510
+2025-10-19 19:51:58,410 - [INFO] - aiogram.event - Update id=252540408 is handled. Duration 467 ms by bot id=7809406510
+2025-10-19 19:51:59,845 - [INFO] - aiogram.event - Update id=252540409 is handled. Duration 250 ms by bot id=7809406510
+2025-10-19 19:52:03,630 - [INFO] - aiogram.event - Update id=252540410 is handled. Duration 125 ms by bot id=7809406510
+2025-10-19 19:52:49,847 - [INFO] - aiogram.event - Update id=252540411 is handled. Duration 327 ms by bot id=7809406510
+2025-10-19 19:53:09,808 - [INFO] - aiogram.event - Update id=252540412 is not handled. Duration 0 ms by bot id=7809406510
+2025-10-19 19:54:29,893 - [INFO] - aiogram.event - Update id=252540413 is not handled. Duration 16 ms by bot id=7809406510
+2025-10-19 20:13:37,336 - [INFO] - aiogram.dispatcher - Polling stopped
+2025-10-19 20:13:37,338 - [INFO] - aiogram.dispatcher - Polling stopped for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 20:16:05,873 - [INFO] - __main__ - Program başladı
+2025-10-19 20:16:05,874 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 20:16:05,891 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 20:16:05,895 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 20:16:05,901 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 20:16:05,903 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 20:16:05,904 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 72, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 20:16:05,905 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 20:16:06,206 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 20:16:17,175 - [INFO] - aiogram.event - Update id=252540414 is handled. Duration 360 ms by bot id=7809406510
+2025-10-19 20:16:20,646 - [INFO] - aiogram.event - Update id=252540415 is not handled. Duration 15 ms by bot id=7809406510
+2025-10-19 20:16:20,647 - [ERROR] - aiogram.event - Cause exception while process update id=252540415 by bot id=7809406510
+OperationalError: no such table: news
+Traceback (most recent call last):
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
+    return await handler(event, data)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\handlers\start.py", line 107, in news_menu_callback
+    news_list = get_all_news()
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\database\__init__.py", line 37, in get_all_news
+    rows = conn.execute("SELECT id, title, content, admin_id, created_at FROM news ORDER BY created_at DESC").fetchall()
+sqlite3.OperationalError: no such table: news
+2025-10-19 20:16:37,659 - [INFO] - aiogram.event - Update id=252540416 is not handled. Duration 16 ms by bot id=7809406510
+2025-10-19 20:16:42,150 - [INFO] - aiogram.event - Update id=252540417 is not handled. Duration 0 ms by bot id=7809406510
+2025-10-19 20:16:42,152 - [ERROR] - aiogram.event - Cause exception while process update id=252540417 by bot id=7809406510
+OperationalError: no such table: news
+Traceback (most recent call last):
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
+    return await handler(event, data)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\handlers\start.py", line 107, in news_menu_callback
+    news_list = get_all_news()
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\database\__init__.py", line 37, in get_all_news
+    rows = conn.execute("SELECT id, title, content, admin_id, created_at FROM news ORDER BY created_at DESC").fetchall()
+sqlite3.OperationalError: no such table: news
+2025-10-19 20:20:33,161 - [INFO] - aiogram.dispatcher - Polling stopped
+2025-10-19 20:20:33,164 - [INFO] - aiogram.dispatcher - Polling stopped for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 20:20:40,389 - [INFO] - __main__ - Program başladı
+2025-10-19 20:20:40,390 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 20:20:40,414 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 20:20:40,415 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 20:20:40,420 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 20:20:40,420 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 20:20:40,421 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 72, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 20:20:40,422 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 20:20:40,801 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 20:21:08,297 - [INFO] - aiogram.event - Update id=252540418 is handled. Duration 375 ms by bot id=7809406510
+2025-10-19 20:21:10,460 - [INFO] - aiogram.event - Update id=252540419 is not handled. Duration 16 ms by bot id=7809406510
+2025-10-19 20:21:10,462 - [ERROR] - aiogram.event - Cause exception while process update id=252540419 by bot id=7809406510
+ValidationError: 1 validation error for InlineKeyboardMarkup
+inline_keyboard
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
+    return await handler(event, data)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\handlers\start.py", line 108, in news_menu_callback
+    kb = InlineKeyboardMarkup()
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pydantic\main.py", line 176, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardMarkup
+inline_keyboard
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+2025-10-19 20:22:12,345 - [INFO] - aiogram.dispatcher - Polling stopped
+2025-10-19 20:22:12,347 - [INFO] - aiogram.dispatcher - Polling stopped for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 20:23:37,984 - [INFO] - __main__ - Program başladı
+2025-10-19 20:23:37,985 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 20:23:38,008 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 20:23:38,010 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 20:23:38,020 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 20:23:38,020 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 20:23:38,021 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 72, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 20:23:38,025 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 20:23:38,368 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 20:23:55,380 - [INFO] - aiogram.event - Update id=252540420 is not handled. Duration 0 ms by bot id=7809406510
+2025-10-19 20:23:55,381 - [ERROR] - aiogram.event - Cause exception while process update id=252540420 by bot id=7809406510
+ValidationError: 1 validation error for InlineKeyboardMarkup
+inline_keyboard
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
+    return await handler(event, data)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\handlers\start.py", line 108, in news_menu_callback
+    kb = InlineKeyboardMarkup()
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pydantic\main.py", line 176, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardMarkup
+inline_keyboard
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+2025-10-19 20:23:57,211 - [INFO] - aiogram.event - Update id=252540421 is handled. Duration 516 ms by bot id=7809406510
+2025-10-19 20:23:58,552 - [INFO] - aiogram.event - Update id=252540422 is handled. Duration 312 ms by bot id=7809406510
+2025-10-19 20:24:00,304 - [INFO] - aiogram.event - Update id=252540423 is handled. Duration 391 ms by bot id=7809406510
+2025-10-19 20:24:02,529 - [INFO] - aiogram.event - Update id=252540424 is handled. Duration 140 ms by bot id=7809406510
+2025-10-19 20:24:03,740 - [INFO] - aiogram.event - Update id=252540425 is handled. Duration 484 ms by bot id=7809406510
+2025-10-19 20:24:07,784 - [INFO] - aiogram.event - Update id=252540426 is handled. Duration 875 ms by bot id=7809406510
+2025-10-19 20:24:09,795 - [INFO] - aiogram.event - Update id=252540427 is handled. Duration 421 ms by bot id=7809406510
+2025-10-19 20:24:12,695 - [INFO] - aiogram.event - Update id=252540428 is handled. Duration 437 ms by bot id=7809406510
+2025-10-19 20:26:35,116 - [INFO] - aiogram.dispatcher - Polling stopped
+2025-10-19 20:26:35,118 - [INFO] - aiogram.dispatcher - Polling stopped for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 20:26:40,536 - [INFO] - __main__ - Program başladı
+2025-10-19 20:26:40,536 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 20:26:40,557 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 20:26:40,559 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 20:26:40,565 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 20:26:40,566 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 20:26:40,567 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 72, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 20:26:40,568 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 20:26:40,881 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 20:26:51,297 - [INFO] - aiogram.event - Update id=252540429 is not handled. Duration 0 ms by bot id=7809406510
+2025-10-19 20:26:51,298 - [ERROR] - aiogram.event - Cause exception while process update id=252540429 by bot id=7809406510
+ValidationError: 1 validation error for InlineKeyboardMarkup
+inline_keyboard
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
+    return await handler(event, data)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\handlers\start.py", line 108, in news_menu_callback
+    kb = InlineKeyboardMarkup()
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pydantic\main.py", line 176, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardMarkup
+inline_keyboard
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+2025-10-19 20:33:31,924 - [INFO] - __main__ - Program başladı
+2025-10-19 20:33:31,925 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 20:33:31,946 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 20:33:31,947 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 20:33:31,951 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 20:33:31,957 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 20:33:31,958 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 72, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 20:33:31,959 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 20:33:32,485 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 20:33:32,582 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:33:32,584 - [WARNING] - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7809406510)
+2025-10-19 20:33:36,773 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:33:36,775 - [WARNING] - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7809406510)
+2025-10-19 20:33:37,707 - [INFO] - aiogram.dispatcher - Connection established (tryings = 1, bot id = 7809406510)
+2025-10-19 20:33:37,718 - [INFO] - aiogram.event - Update id=252540430 is not handled. Duration 0 ms by bot id=7809406510
+2025-10-19 20:33:37,719 - [ERROR] - aiogram.event - Cause exception while process update id=252540430 by bot id=7809406510
+ValidationError: 1 validation error for InlineKeyboardMarkup
+inline_keyboard
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
+    return await handler(event, data)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\handlers\start.py", line 108, in news_menu_callback
+    # pydantic requires inline_keyboard field; pass empty list if no buttons
+  File "C:\Users\Acer\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pydantic\main.py", line 176, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardMarkup
+inline_keyboard
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+2025-10-19 20:33:37,880 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:33:37,881 - [WARNING] - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7809406510)
+2025-10-19 20:33:41,880 - [INFO] - aiogram.dispatcher - Connection established (tryings = 1, bot id = 7809406510)
+2025-10-19 20:33:41,993 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:33:41,994 - [WARNING] - aiogram.dispatcher - Sleep for 1.398639 seconds and try again... (tryings = 1, bot id = 7809406510)
+2025-10-19 20:33:42,446 - [INFO] - aiogram.event - Update id=252540431 is handled. Duration 562 ms by bot id=7809406510
+2025-10-19 20:33:43,590 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:33:43,592 - [WARNING] - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7809406510)
+2025-10-19 20:33:47,705 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:33:47,706 - [WARNING] - aiogram.dispatcher - Sleep for 1.723060 seconds and try again... (tryings = 2, bot id = 7809406510)
+2025-10-19 20:33:49,546 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:33:49,546 - [WARNING] - aiogram.dispatcher - Sleep for 1.352691 seconds and try again... (tryings = 1, bot id = 7809406510)
+2025-10-19 20:33:54,015 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:33:54,016 - [WARNING] - aiogram.dispatcher - Sleep for 2.140398 seconds and try again... (tryings = 3, bot id = 7809406510)
+2025-10-19 20:33:56,327 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:33:56,329 - [WARNING] - aiogram.dispatcher - Sleep for 1.687484 seconds and try again... (tryings = 2, bot id = 7809406510)
+2025-10-19 20:34:01,181 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:34:01,182 - [WARNING] - aiogram.dispatcher - Sleep for 2.748926 seconds and try again... (tryings = 4, bot id = 7809406510)
+2025-10-19 20:34:04,041 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:34:04,042 - [WARNING] - aiogram.dispatcher - Sleep for 2.085074 seconds and try again... (tryings = 3, bot id = 7809406510)
+2025-10-19 20:34:09,321 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:34:09,334 - [WARNING] - aiogram.dispatcher - Sleep for 3.566274 seconds and try again... (tryings = 5, bot id = 7809406510)
+2025-10-19 20:34:13,011 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:34:13,012 - [WARNING] - aiogram.dispatcher - Sleep for 2.732206 seconds and try again... (tryings = 4, bot id = 7809406510)
+2025-10-19 20:34:18,948 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:34:18,950 - [WARNING] - aiogram.dispatcher - Sleep for 4.533846 seconds and try again... (tryings = 6, bot id = 7809406510)
+2025-10-19 20:34:23,579 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:34:23,580 - [WARNING] - aiogram.dispatcher - Sleep for 3.568919 seconds and try again... (tryings = 5, bot id = 7809406510)
+2025-10-19 20:34:27,246 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:34:27,247 - [WARNING] - aiogram.dispatcher - Sleep for 5.101954 seconds and try again... (tryings = 7, bot id = 7809406510)
+2025-10-19 20:34:32,465 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:34:32,466 - [WARNING] - aiogram.dispatcher - Sleep for 4.482710 seconds and try again... (tryings = 6, bot id = 7809406510)
+2025-10-19 20:34:37,314 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:34:37,315 - [WARNING] - aiogram.dispatcher - Sleep for 4.990017 seconds and try again... (tryings = 8, bot id = 7809406510)
+2025-10-19 20:34:42,416 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:34:42,418 - [WARNING] - aiogram.dispatcher - Sleep for 4.985614 seconds and try again... (tryings = 7, bot id = 7809406510)
+2025-10-19 20:34:47,502 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:34:47,504 - [WARNING] - aiogram.dispatcher - Sleep for 5.065819 seconds and try again... (tryings = 9, bot id = 7809406510)
+2025-10-19 20:34:52,679 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:34:52,680 - [WARNING] - aiogram.dispatcher - Sleep for 4.970916 seconds and try again... (tryings = 8, bot id = 7809406510)
+2025-10-19 20:34:57,758 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:34:57,760 - [WARNING] - aiogram.dispatcher - Sleep for 5.083578 seconds and try again... (tryings = 10, bot id = 7809406510)
+2025-10-19 20:35:02,945 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:35:02,947 - [WARNING] - aiogram.dispatcher - Sleep for 5.094473 seconds and try again... (tryings = 9, bot id = 7809406510)
+2025-10-19 20:35:08,154 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:35:08,156 - [WARNING] - aiogram.dispatcher - Sleep for 4.929510 seconds and try again... (tryings = 11, bot id = 7809406510)
+2025-10-19 20:35:13,194 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:35:13,195 - [WARNING] - aiogram.dispatcher - Sleep for 4.760120 seconds and try again... (tryings = 10, bot id = 7809406510)
+2025-10-19 20:35:18,052 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:35:18,053 - [WARNING] - aiogram.dispatcher - Sleep for 4.939331 seconds and try again... (tryings = 12, bot id = 7809406510)
+2025-10-19 20:35:23,102 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:35:23,103 - [WARNING] - aiogram.dispatcher - Sleep for 4.962910 seconds and try again... (tryings = 11, bot id = 7809406510)
+2025-10-19 20:35:28,171 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:35:28,175 - [WARNING] - aiogram.dispatcher - Sleep for 4.920230 seconds and try again... (tryings = 13, bot id = 7809406510)
+2025-10-19 20:35:33,199 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:35:33,201 - [WARNING] - aiogram.dispatcher - Sleep for 5.109894 seconds and try again... (tryings = 12, bot id = 7809406510)
+2025-10-19 20:35:38,413 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:35:38,414 - [WARNING] - aiogram.dispatcher - Sleep for 5.103269 seconds and try again... (tryings = 14, bot id = 7809406510)
+2025-10-19 20:35:43,628 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:35:43,630 - [WARNING] - aiogram.dispatcher - Sleep for 4.917303 seconds and try again... (tryings = 13, bot id = 7809406510)
+2025-10-19 20:35:48,652 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:35:48,654 - [WARNING] - aiogram.dispatcher - Sleep for 5.101192 seconds and try again... (tryings = 15, bot id = 7809406510)
+2025-10-19 20:35:53,860 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:35:53,862 - [WARNING] - aiogram.dispatcher - Sleep for 4.967493 seconds and try again... (tryings = 14, bot id = 7809406510)
+2025-10-19 20:35:58,941 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:35:58,941 - [WARNING] - aiogram.dispatcher - Sleep for 5.037138 seconds and try again... (tryings = 16, bot id = 7809406510)
+2025-10-19 20:36:04,085 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:36:04,085 - [WARNING] - aiogram.dispatcher - Sleep for 4.984881 seconds and try again... (tryings = 15, bot id = 7809406510)
+2025-10-19 20:36:09,178 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 20:36:09,178 - [WARNING] - aiogram.dispatcher - Sleep for 4.913787 seconds and try again... (tryings = 17, bot id = 7809406510)
+2025-10-19 21:41:42,882 - [INFO] - __main__ - Program başladı
+2025-10-19 21:41:42,883 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 21:41:42,936 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 21:41:42,937 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 21:41:42,946 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 21:41:42,947 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 21:41:42,948 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 72, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 21:41:42,949 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 21:41:43,253 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 21:42:35,345 - [INFO] - aiogram.event - Update id=252540433 is handled. Duration 280 ms by bot id=7809406510
+2025-10-19 21:42:39,910 - [INFO] - aiogram.event - Update id=252540434 is handled. Duration 108 ms by bot id=7809406510
+2025-10-19 21:42:43,428 - [INFO] - aiogram.event - Update id=252540435 is handled. Duration 219 ms by bot id=7809406510
+2025-10-19 21:42:56,478 - [INFO] - aiogram.event - Update id=252540436 is handled. Duration 125 ms by bot id=7809406510
+2025-10-19 21:43:00,068 - [INFO] - aiogram.event - Update id=252540437 is handled. Duration 500 ms by bot id=7809406510
+2025-10-19 21:44:38,111 - [INFO] - aiogram.event - Update id=252540438 is not handled. Duration 0 ms by bot id=7809406510
+2025-10-19 21:44:43,324 - [INFO] - aiogram.event - Update id=252540439 is handled. Duration 453 ms by bot id=7809406510
+2025-10-19 21:45:11,493 - [INFO] - aiogram.event - Update id=252540440 is handled. Duration 391 ms by bot id=7809406510
+2025-10-19 22:23:49,388 - [INFO] - __main__ - Program başladı
+2025-10-19 22:23:49,389 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 22:23:49,405 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 22:23:49,407 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 22:23:49,414 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 22:23:49,415 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 22:23:49,416 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 72, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 22:23:49,420 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 22:23:49,763 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 22:23:50,210 - [INFO] - aiogram.event - Update id=252540441 is handled. Duration 327 ms by bot id=7809406510
+2025-10-19 22:24:23,102 - [INFO] - aiogram.event - Update id=252540442 is not handled. Duration 16 ms by bot id=7809406510
+2025-10-19 22:24:33,251 - [INFO] - aiogram.event - Update id=252540443 is handled. Duration 437 ms by bot id=7809406510
+2025-10-19 22:24:37,917 - [INFO] - aiogram.event - Update id=252540444 is handled. Duration 217 ms by bot id=7809406510
+2025-10-19 22:24:39,840 - [INFO] - aiogram.event - Update id=252540445 is handled. Duration 171 ms by bot id=7809406510
+2025-10-19 22:29:42,984 - [INFO] - __main__ - Program başladı
+2025-10-19 22:29:42,985 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 22:29:42,999 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 22:29:43,000 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 22:29:43,005 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 22:29:43,005 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 22:29:43,005 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 72, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 22:29:43,006 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 22:29:43,333 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 22:29:43,437 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 22:29:43,437 - [WARNING] - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7809406510)
+2025-10-19 22:29:47,551 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 22:29:47,552 - [WARNING] - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7809406510)
+2025-10-19 22:29:48,673 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 22:29:48,674 - [WARNING] - aiogram.dispatcher - Sleep for 1.376142 seconds and try again... (tryings = 1, bot id = 7809406510)
+2025-10-19 22:29:53,160 - [ERROR] - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-19 22:29:53,162 - [WARNING] - aiogram.dispatcher - Sleep for 1.235991 seconds and try again... (tryings = 1, bot id = 7809406510)
+2025-10-19 22:29:58,597 - [INFO] - aiogram.dispatcher - Polling stopped
+2025-10-19 22:29:58,599 - [INFO] - aiogram.dispatcher - Polling stopped for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 22:30:02,545 - [INFO] - __main__ - Program başladı
+2025-10-19 22:30:02,545 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 22:30:02,557 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 22:30:02,558 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 22:30:02,561 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 22:30:02,562 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 22:30:02,564 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 72, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 22:30:02,565 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 22:30:02,876 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 22:30:17,880 - [INFO] - aiogram.event - Update id=252540446 is handled. Duration 406 ms by bot id=7809406510
+2025-10-19 22:30:58,627 - [INFO] - aiogram.dispatcher - Polling stopped
+2025-10-19 22:30:58,629 - [INFO] - aiogram.dispatcher - Polling stopped for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 22:31:02,754 - [INFO] - __main__ - Program başladı
+2025-10-19 22:31:02,755 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 22:31:02,770 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 22:31:02,771 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 22:31:02,778 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 22:31:02,778 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 22:31:02,779 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 72, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 22:31:02,780 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 22:31:03,124 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 22:31:24,993 - [INFO] - aiogram.event - Update id=252540447 is handled. Duration 421 ms by bot id=7809406510
+2025-10-19 22:31:30,434 - [INFO] - aiogram.event - Update id=252540448 is handled. Duration 219 ms by bot id=7809406510
+2025-10-19 22:32:04,140 - [INFO] - aiogram.event - Update id=252540449 is handled. Duration 406 ms by bot id=7809406510
+2025-10-19 22:32:05,957 - [INFO] - aiogram.event - Update id=252540450 is handled. Duration 421 ms by bot id=7809406510
+2025-10-19 22:32:07,877 - [INFO] - aiogram.event - Update id=252540451 is handled. Duration 609 ms by bot id=7809406510
+2025-10-19 22:32:10,510 - [INFO] - aiogram.event - Update id=252540452 is handled. Duration 109 ms by bot id=7809406510
+2025-10-19 22:32:34,958 - [INFO] - aiogram.event - Update id=252540453 is handled. Duration 452 ms by bot id=7809406510
+2025-10-19 22:32:36,803 - [INFO] - aiogram.event - Update id=252540454 is handled. Duration 250 ms by bot id=7809406510
+2025-10-19 22:32:38,963 - [INFO] - aiogram.event - Update id=252540455 is handled. Duration 342 ms by bot id=7809406510
+2025-10-19 22:32:43,986 - [INFO] - aiogram.event - Update id=252540457 is handled. Duration 234 ms by bot id=7809406510
+2025-10-19 22:32:46,676 - [INFO] - aiogram.event - Update id=252540458 is handled. Duration 141 ms by bot id=7809406510
+2025-10-19 22:32:48,136 - [INFO] - aiogram.event - Update id=252540459 is handled. Duration 453 ms by bot id=7809406510
+2025-10-19 22:32:50,406 - [INFO] - aiogram.event - Update id=252540460 is handled. Duration 546 ms by bot id=7809406510
+2025-10-19 22:32:50,835 - [INFO] - aiogram.event - Update id=252540456 is handled. Duration 10342 ms by bot id=7809406510
+2025-10-19 22:32:53,756 - [INFO] - aiogram.event - Update id=252540461 is handled. Duration 250 ms by bot id=7809406510
+2025-10-19 22:32:55,705 - [INFO] - aiogram.event - Update id=252540462 is handled. Duration 233 ms by bot id=7809406510
+2025-10-19 22:32:57,216 - [INFO] - aiogram.event - Update id=252540463 is handled. Duration 375 ms by bot id=7809406510
+2025-10-19 22:33:03,275 - [INFO] - aiogram.event - Update id=252540464 is handled. Duration 155 ms by bot id=7809406510
+2025-10-19 22:33:30,155 - [INFO] - aiogram.event - Update id=252540465 is handled. Duration 327 ms by bot id=7809406510
+2025-10-19 22:33:36,052 - [INFO] - aiogram.event - Update id=252540466 is handled. Duration 219 ms by bot id=7809406510
+2025-10-19 22:37:09,238 - [INFO] - aiogram.dispatcher - Polling stopped
+2025-10-19 22:37:09,240 - [INFO] - aiogram.dispatcher - Polling stopped for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 22:37:14,061 - [INFO] - __main__ - Program başladı
+2025-10-19 22:37:14,062 - [INFO] - __main__ - Bot yaradılır...
+2025-10-19 22:37:14,073 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-19 22:37:14,074 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-19 22:37:14,078 - [INFO] - __main__ - Bot işə düşür...
+2025-10-19 22:37:14,079 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-19 22:37:14,079 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\Yeni icad üçün\run.py", line 72, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-19 22:37:14,080 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-19 22:37:14,374 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-19 22:37:36,067 - [INFO] - aiogram.event - Update id=252540467 is handled. Duration 360 ms by bot id=7809406510
+2025-10-19 22:38:17,742 - [INFO] - aiogram.event - Update id=252540468 is handled. Duration 328 ms by bot id=7809406510
+2025-10-19 22:38:40,961 - [INFO] - aiogram.event - Update id=252540469 is handled. Duration 437 ms by bot id=7809406510
+2025-10-19 22:39:15,786 - [INFO] - aiogram.event - Update id=252540470 is handled. Duration 390 ms by bot id=7809406510

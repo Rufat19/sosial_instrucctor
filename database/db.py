@@ -30,4 +30,29 @@ def create_tables():
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
         """)
+        # Ensure news table exists for the news feature
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS news (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                title TEXT,
+                content TEXT,
+                admin_id INTEGER,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
         conn.commit()
+
+
+def add_user(user_id, nickname):
+    with get_db_connection() as conn:
+        conn.execute("""
+            INSERT OR IGNORE INTO users (user_id, nickname)
+            VALUES (?, ?)
+        """, (user_id, nickname))
+        conn.commit()
+
+
+def get_all_users():
+    with get_db_connection() as conn:
+        rows = conn.execute("SELECT * FROM users").fetchall()
+        return [dict(row) for row in rows]
