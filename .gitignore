@@ -1,9 +1,24 @@
-.env
+# Python & environment
 __pycache__/
 *.pyc
-orders.db
-# Ignore environment variables file
-# This file contains sensitive information and should not be shared
-# Uncomment the lines below to include your bot token and admin ID
-
+venv/
 .env
+
+# Windows system files
+Desktop.ini
+ntuser.*
+AppData/
+vmlogs/
+Thumbs.db
+
+# IDE / editor cache
+.vscode/
+.idlerc/
+.bash_history
+.lesshst
+.rustup/
+
+# Backup / other projects
+Telegram_bots/
+Sosial_t-lim-i/
+quiz-frontend/

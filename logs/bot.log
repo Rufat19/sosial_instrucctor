@@ -793,3 +793,25 @@ AttributeError: module 'background_tasks' has no attribute 'send_regular_message
 2025-10-19 22:38:17,742 - [INFO] - aiogram.event - Update id=252540468 is handled. Duration 328 ms by bot id=7809406510
 2025-10-19 22:38:40,961 - [INFO] - aiogram.event - Update id=252540469 is handled. Duration 437 ms by bot id=7809406510
 2025-10-19 22:39:15,786 - [INFO] - aiogram.event - Update id=252540470 is handled. Duration 390 ms by bot id=7809406510
+2025-10-20 00:12:12,792 - [INFO] - __main__ - Program başladı
+2025-10-20 00:12:12,793 - [INFO] - __main__ - Bot yaradılır...
+2025-10-20 00:12:13,176 - [INFO] - __main__ - Dispatcher yaradılır...
+2025-10-20 00:12:13,178 - [INFO] - __main__ - Router-lar əlavə olunur...
+2025-10-20 00:12:13,196 - [INFO] - __main__ - Bot işə düşür...
+2025-10-20 00:12:13,197 - [INFO] - __main__ - Bot started successfully ✅
+2025-10-20 00:12:13,198 - [ERROR] - __main__ - Failed to start background tasks: module 'background_tasks' has no attribute 'send_regular_message'
+Traceback (most recent call last):
+  File "C:\Users\Acer\Telegram_bots\sosial_insturctor\run.py", line 72, in on_startup
+    asyncio.create_task(background_tasks.send_regular_message(bot, bot_chat_id, interval=3600))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'background_tasks' has no attribute 'send_regular_message'
+2025-10-20 00:12:13,201 - [INFO] - aiogram.dispatcher - Start polling
+2025-10-20 00:12:13,593 - [INFO] - aiogram.dispatcher - Run polling for bot @dim_info_bot id=7809406510 - 'DİM_İNFO'
+2025-10-20 00:12:28,958 - [INFO] - aiogram.event - Update id=252540484 is handled. Duration 342 ms by bot id=7809406510
+2025-10-20 00:12:40,862 - [INFO] - aiogram.event - Update id=252540485 is handled. Duration 266 ms by bot id=7809406510
+2025-10-20 00:12:45,814 - [INFO] - aiogram.event - Update id=252540486 is handled. Duration 108 ms by bot id=7809406510
+2025-10-20 00:12:47,290 - [INFO] - aiogram.event - Update id=252540487 is handled. Duration 405 ms by bot id=7809406510
+2025-10-20 00:12:51,778 - [INFO] - aiogram.event - Update id=252540488 is handled. Duration 202 ms by bot id=7809406510
+2025-10-20 00:12:55,958 - [INFO] - aiogram.event - Update id=252540489 is handled. Duration 437 ms by bot id=7809406510
+2025-10-20 00:12:57,400 - [INFO] - aiogram.event - Update id=252540490 is handled. Duration 218 ms by bot id=7809406510
+2025-10-20 00:13:07,753 - [INFO] - aiogram.event - Update id=252540491 is handled. Duration 140 ms by bot id=7809406510
