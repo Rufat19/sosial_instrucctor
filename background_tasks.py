@@ -31,12 +31,12 @@ async def monitor_new_users(bot: Bot, admin_id: int):
         except Exception as e:
             logger.error(f"Monitor xətası: {e}")
 
-        await asyncio.sleep(60)
-
+        await asyncio.sleep(60)  # hər 60 saniyədən bir yenidən yoxla
 
 async def send_regular_message(bot: Bot, chat_id: int, interval: int = 3600):
     """
-    Periodically send a heartbeat message to `chat_id`.
+    Periodically send a simple heartbeat message to `chat_id`.
+    Kept lightweight so startup can schedule it safely.
     """
     logger.info("send_regular_message background task started (interval=%s)", interval)
     while True:
