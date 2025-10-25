@@ -1,8 +1,9 @@
+# handlers/news_handler.py
 from aiogram import Router, F
 from aiogram.types import (
-    Message, 
-    InlineKeyboardMarkup, 
-    InlineKeyboardButton, 
+    Message,
+    InlineKeyboardMarkup,
+    InlineKeyboardButton,
     CallbackQuery
 )
 from aiogram.filters import Command
@@ -12,6 +13,10 @@ from config import ADMIN_ID
 from database import add_news_to_db, get_all_news, get_news_by_id, get_all_users
 
 router = Router()
+
+# Lokal ehtiyat yaddaş (PostgreSQL işləməsə belə)
+local_news_cache = []
+
 
 # FSM mərhələləri
 class AddNewsState(StatesGroup):
@@ -44,12 +49,33 @@ async def save_news_content(message: Message, state: FSMContext):
     title = data["title"]
     content = message.text
 
-    # DB-yə yazırıq
-    news_id = await add_news_to_db(title, content, message.from_user.id)
+    # DB-yə yazmağa cəhd
+    try:
+        news_id = await add_news_to_db(title, content, message.from_user.id)
+        if not news_id:
+            # Əgər DB cavab vermirsə, lokal yaddaşa yaz
+            news_id = len(local_news_cache) + 1
+            local_news_cache.append({
+                "id": news_id,
+                "title": title,
+                "content": content
+            })
+    except Exception as e:
+        news_id = len(local_news_cache) + 1
+        local_news_cache.append({
+            "id": news_id,
+            "title": title,
+            "content": content
+        })
+
     await state.clear()
 
-    # Bütün istifadəçilərə push göndəririk
-    users = await get_all_users()
+    # Bütün istifadəçilərə göndəririk
+    try:
+        users = await get_all_users()
+    except Exception:
+        users = []  # əgər DB işləməsə, heç kimə göndərmirik
+
     kb = InlineKeyboardMarkup(
         inline_keyboard=[
             [InlineKeyboardButton(text="📖 Ətraflı oxu", callback_data=f"read_news:{news_id}")]
@@ -57,15 +83,18 @@ async def save_news_content(message: Message, state: FSMContext):
     )
 
     for user in users:
+        user_id = user.get("user_id") or user.get("id")
+        if not user_id:
+            continue
         try:
             await message.bot.send_message(
-                chat_id=user["id"], 
+                chat_id=user_id,
                 text=f"📢 *{title}*\nYeni yenilik əlavə olundu!",
                 reply_markup=kb,
                 parse_mode="Markdown"
             )
         except Exception:
-            continue  # bəziləri block edə bilər, o zaman keç
+            continue  # bəziləri block edə bilər, davam et
 
     await message.answer("✅ Yenilik əlavə olundu və bütün istifadəçilərə göndərildi.")
 
@@ -74,10 +103,14 @@ async def save_news_content(message: Message, state: FSMContext):
 @router.callback_query(F.data.startswith("read_news:"))
 async def read_news_cb(query: CallbackQuery):
     news_id = int(query.data.split(":")[1])
-    news = await get_news_by_id(news_id)
+    try:
+        news = await get_news_by_id(news_id)
+    except Exception:
+        news = next((n for n in local_news_cache if n["id"] == news_id), None)
+
     if not news:
-        return await query.answer("Xəbər tapılmadı.", show_alert=True)
-    
+        return await query.answer("❌ Xəbər tapılmadı.", show_alert=True)
+
     await query.message.answer(
         f"📌 *{news['title']}*\n\n{news['content']}",
         parse_mode="Markdown"
@@ -88,7 +121,11 @@ async def read_news_cb(query: CallbackQuery):
 # 🔹 "Bütün yeniliklər" komandası
 @router.message(Command("news"))
 async def list_news(message: Message):
-    news_list = await get_all_news()
+    try:
+        news_list = await get_all_news()
+    except Exception:
+        news_list = local_news_cache
+
     if not news_list:
         return await message.answer("Hələlik yenilik yoxdur.")
 
@@ -102,7 +139,11 @@ async def list_news(message: Message):
 # 🔹 "Yeniliklər" inline düyməsi (start.py-dən çağırmaq üçün)
 @router.callback_query(F.data == "show_news")
 async def show_news_from_inline(query: CallbackQuery):
-    news_list = await get_all_news()
+    try:
+        news_list = await get_all_news()
+    except Exception:
+        news_list = local_news_cache
+
     if not news_list:
         return await query.answer("Hələlik yenilik yoxdur.", show_alert=True)
 

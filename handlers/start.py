@@ -145,7 +145,33 @@ async def main_menu_callback(callback: CallbackQuery, state: FSMContext):
 # ✅ YENİLİKLƏR (tam işlək versiya)
 @router.callback_query(F.data == "news_menu")
 async def news_menu_callback(callback: CallbackQuery):
-    from database.queries import get_all_news  # circular import-un qarşısı üçün
+    news_list = get_all_news()
+    if not news_list:
+        await callback.message.answer("📭 Hələ ki, yenilik yoxdur.")
+        await callback.answer()
+        return
+
+    kb = InlineKeyboardMarkup(
+        inline_keyboard=[
+            [InlineKeyboardButton(text=n['title'], callback_data=f"read_news:{n['id']}")]
+            for n in news_list
+        ]
+    )
+    await callback.message.answer("🆕 Bütün yeniliklər:", reply_markup=kb)
+    await callback.answer()
+
+
+@router.callback_query(F.data.startswith("read_news:"))
+async def read_news_callback(callback: CallbackQuery):
+    news_id = int(callback.data.split(":")[1])
+    news = get_news_by_id(news_id)
+    if news:
+        text = f"<b>{news['title']}</b>\n\n{news['content']}"
+        await callback.message.answer(text, parse_mode="HTML")
+    else:
+        await callback.message.answer("❌ Yenilik tapılmadı.")
+    await callback.answer()
+  # circular import-un qarşısı üçün
 
     try:
         news_list = await get_all_news()  # ✅ await əlavə edildi
