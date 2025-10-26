@@ -42,7 +42,7 @@ FUN_FACTS = [
     "😎 Sosial trivia: Pensiya kartını itirsəniz, DOST mərkəzinə müraciət etsəniz, 10 dəqiqəyə yenisini sifariş edə bilərsiniz!",
     "📊 Əyləncəli fakt: Əmək pensiyası hesablananda hər il üçün fərqli sığorta kapitalı əmsalı tətbiq olunur – bəli, bu bir az riyaziyyat kimidir!",
     "🧠 Sosial fakt: Əgər pensiyaçı işləyirsə, işdən çıxma zamanı və yaxud hər 6 ildən bir sığorta hissəsi yenidən hesablanır və artım baş verir – işləmək həm də pensiyanı artırır!",
-    "😂 Sosial zarafat: Ünvanlı yardımda ailə üzvlərini yazmağı unutsan, sistem səni yazacaq – amma kömək etməyəcək!",
+    "📞 Sosial zəng: 142 Çağrı Mərkəzi ilə əlaqə saxlasanız, pensiya məsələlərinizdə sizə kömək edəcək!",
     "💬 Fun Fact: DOST Agentliyinin adı təsadüfi deyil — hərfi mənada “Dayanıqlı Operativ Sosial Təminat” deməkdir!",
     "🪙 Maraqlıdır ki, sosial ödənişlərdəki 1% dəyişiklik minlərlə insanın gəlirinə təsir göstərir.",
     "📅 Sosial trivia: 2019-cu ildən bəri pensiya artımları avtomatlaşdırılmış sistemlə hesablanır — insan səhvi sıfır!"
