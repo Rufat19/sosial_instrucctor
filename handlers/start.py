@@ -158,3 +158,4 @@ async def read_news_callback(callback: CallbackQuery):
     except Exception as e:
         await callback.message.answer(f"⚠️ Xəbəri oxumaq mümkün olmadı:\n{e}")
     await callback.answer()
+main_menu_keyboard = get_main_buttons()
