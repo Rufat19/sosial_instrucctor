@@ -1,4 +1,3 @@
-# handlers/news_handler.py
 from aiogram import Router, F
 from aiogram.types import (
     Message,
@@ -10,7 +9,7 @@ from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import StatesGroup, State
 from config import ADMIN_ID
-from database import add_news_to_db, get_all_news, get_news_by_id, get_all_users
+from database import add_news, get_all_news, get_news_by_id, get_all_users
 
 router = Router()
 
@@ -42,25 +41,18 @@ async def get_news_title(message: Message, state: FSMContext):
     await state.set_state(AddNewsState.waiting_for_content)
 
 
-# 🔹 Məzmun daxil edilir və DB-yə yazılır
+# 🔹 Məzmun daxil edilir və DB/yaddaşa yazılır
 @router.message(AddNewsState.waiting_for_content)
 async def save_news_content(message: Message, state: FSMContext):
     data = await state.get_data()
     title = data["title"]
     content = message.text
 
-    # DB-yə yazmağa cəhd
+    # JSON-a yaz (bizim sistemdə lokaldır)
     try:
-        news_id = await add_news_to_db(title, content, message.from_user.id)
-        if not news_id:
-            # Əgər DB cavab vermirsə, lokal yaddaşa yaz
-            news_id = len(local_news_cache) + 1
-            local_news_cache.append({
-                "id": news_id,
-                "title": title,
-                "content": content
-            })
+        news_id = add_news(title, content)
     except Exception as e:
+        print(f"[WARN] add_news failed: {e}")
         news_id = len(local_news_cache) + 1
         local_news_cache.append({
             "id": news_id,
@@ -70,11 +62,11 @@ async def save_news_content(message: Message, state: FSMContext):
 
     await state.clear()
 
-    # Bütün istifadəçilərə göndəririk
+    # İstifadəçilərə göndəririk
     try:
         users = await get_all_users()
     except Exception:
-        users = []  # əgər DB işləməsə, heç kimə göndərmirik
+        users = []  # DB işləməsə, boş qalır
 
     kb = InlineKeyboardMarkup(
         inline_keyboard=[
@@ -104,7 +96,7 @@ async def save_news_content(message: Message, state: FSMContext):
 async def read_news_cb(query: CallbackQuery):
     news_id = int(query.data.split(":")[1])
     try:
-        news = await get_news_by_id(news_id)
+        news = get_news_by_id(news_id)
     except Exception:
         news = next((n for n in local_news_cache if n["id"] == news_id), None)
 
@@ -122,7 +114,7 @@ async def read_news_cb(query: CallbackQuery):
 @router.message(Command("news"))
 async def list_news(message: Message):
     try:
-        news_list = await get_all_news()
+        news_list = get_all_news()
     except Exception:
         news_list = local_news_cache
 
@@ -140,7 +132,7 @@ async def list_news(message: Message):
 @router.callback_query(F.data == "show_news")
 async def show_news_from_inline(query: CallbackQuery):
     try:
-        news_list = await get_all_news()
+        news_list = get_all_news()
     except Exception:
         news_list = local_news_cache
 

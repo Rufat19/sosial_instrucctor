@@ -19,7 +19,7 @@ async def channels_callback(callback: CallbackQuery, state: FSMContext):
         ]
     )
     if callback.message is not None:
-        await callback.message.answer("Kanal seçin:", reply_markup=keyboard)
+        await callback.message.answer("Kanala daxil olmaq üçün aşağıdakı düyməyə basın:", reply_markup=keyboard)
     await callback.answer()
 
 
@@ -35,7 +35,7 @@ def get_main_buttons():
     return InlineKeyboardMarkup(
         inline_keyboard=[
             [InlineKeyboardButton(text="⚡ Əmsal Oyunu", callback_data="fast_test_start")],
-            [InlineKeyboardButton(text="🏆 Ən yaxşı kanalı seç! 🏆", callback_data="channel_access_menu")],
+            [InlineKeyboardButton(text="🏆 Sosial Mühit kanalına daxil ol", callback_data="channel_access_menu")],
             [InlineKeyboardButton(text="🌍 Dünya Görüşü- quiz paketlər", callback_data="quiz_world_menu")],
             [InlineKeyboardButton(text="📊 Power BI Sertifikat Testləri", callback_data="cert_menu")],
             [InlineKeyboardButton(text="📦 Sosial ödənişlər- quiz paketlər", callback_data="quiz")],
@@ -65,9 +65,9 @@ async def start_menu(message: Message, state: FSMContext):
     if message.from_user is not None:
         log_user_start(message.from_user.id)
 
-        # 🔹 PostgreSQL-ə istifadəçi əlavə et
+        # 🔹 İstifadəçi əlavə et (lokal JSON-a)
         try:
-            await add_user(
+            add_user(
                 user_id=message.from_user.id,
                 name=message.from_user.full_name or message.from_user.username or "Unknown",
                 lang=message.from_user.language_code or "unknown"
@@ -116,53 +116,13 @@ async def start_menu(message: Message, state: FSMContext):
     )
 
 
-# Əlavə əsas menyu variantı
-main_menu_keyboard = InlineKeyboardMarkup(
-    inline_keyboard=[
-        [InlineKeyboardButton(text="⚡ Texniki biliklərini sınağa çək (Eng)", callback_data="fast_test_start")],
-        [InlineKeyboardButton(text="🏆 Ən yaxşı kanalı seç! 🏆", callback_data="channel_access_menu")],
-        [InlineKeyboardButton(text="🌍 Dünya Görüşü- quiz paketlər", callback_data="quiz_world_menu")],
-        [InlineKeyboardButton(text="📊 Power BI Sertifikat Testləri", callback_data="cert_menu")],
-        [InlineKeyboardButton(text="📦 Sosial ödənişlər- quiz paketlər", callback_data="quiz")],
-        [InlineKeyboardButton(text="📄 Müsahibələrə Hazırlıq Texnikası", callback_data="get_pdf")],
-        [InlineKeyboardButton(text="🕹️ Komanda Köstəbək Oyunu", callback_data="game_info")],
-        [InlineKeyboardButton(text="🛠️ Bot sifarişi (depozit)", callback_data="order_bot")],
-        [InlineKeyboardButton(text="💰 RBCron balansım", callback_data="balance_menu")],
-        [InlineKeyboardButton(text="🌟 İstifadəçi rəyləri", callback_data="reviews_menu")],
-        [InlineKeyboardButton(text="ℹ️ Bot haqqında məlumat", callback_data="about_bot")]
-    ]
-)
-
-
-# Geri qayıt callback
-@router.callback_query(F.data == "back")
-async def back_callback(callback: CallbackQuery, state: FSMContext):
-    if callback.message is not None:
-        await callback.message.answer(
-            "Aşağıdakı seçimlərdən birini seçin və bütün funksiyalara rahat giriş əldə edin:",
-            reply_markup=get_main_buttons()
-        )
-    await callback.answer()
-
-
-# Əsas menyuya qayıt callback
-@router.callback_query(F.data == "main_menu")
-async def main_menu_callback(callback: CallbackQuery, state: FSMContext):
-    if callback.message is not None:
-        await callback.message.answer(
-            "Aşağıdakı seçimlərdən birini seçin və bütün funksiyalara rahat giriş əldə edin:",
-            reply_markup=get_main_buttons()
-        )
-    await callback.answer()
-
-
-# ✅ YENİLİKLƏR (tam işlək versiya)
+# ✅ YENİLİKLƏR (lokal işlək versiya)
 @router.callback_query(F.data == "news_menu")
 async def news_menu_callback(callback: CallbackQuery):
     try:
-        news_list = await get_all_news()
+        news_list = get_all_news()
     except Exception as e:
-        await callback.message.answer(f"⚠️ Xəbərləri yükləmək mümkün olmadı:\n{e}")
+        await callback.message.answer(f"⚠️ Yaxın zamanda:\n{e}")
         await callback.answer()
         return
 
@@ -186,7 +146,7 @@ async def news_menu_callback(callback: CallbackQuery):
 async def read_news_callback(callback: CallbackQuery):
     try:
         news_id = int(callback.data.split(":")[1])
-        news = await get_news_by_id(news_id)
+        news = get_news_by_id(news_id)
         if not news:
             await callback.message.answer("❌ Yenilik tapılmadı.")
             return
@@ -197,47 +157,4 @@ async def read_news_callback(callback: CallbackQuery):
         )
     except Exception as e:
         await callback.message.answer(f"⚠️ Xəbəri oxumaq mümkün olmadı:\n{e}")
-    await callback.answer()
-
-
-# Balans menyusu
-@router.callback_query(F.data == "balance_menu")
-async def balance_menu_callback(callback: CallbackQuery):
-    keyboard = InlineKeyboardMarkup(
-        inline_keyboard=[
-            [InlineKeyboardButton(text="Balansı göstər", callback_data="show_balance")],
-            [InlineKeyboardButton(text="Balansı doldur", callback_data="fill_balance")],
-            [InlineKeyboardButton(text="🏠 Əsas menyuya qayıt", callback_data="main_menu")]
-        ]
-    )
-    if callback.message is not None:
-        await callback.message.answer("Balans menyusu:", reply_markup=keyboard)
-    await callback.answer()
-
-
-# Kanal seçimi
-@router.callback_query(F.data == "channel")
-async def channel_callback(callback: CallbackQuery, state: FSMContext):
-    keyboard = InlineKeyboardMarkup(
-        inline_keyboard=[
-            [InlineKeyboardButton(text="Sosial Mühit", callback_data="channel_sosial_muhit")]
-        ]
-    )
-    if callback.message is not None:
-        await callback.message.answer("Kanal seçin:", reply_markup=keyboard)
-    await callback.answer()
-
-
-# Oyun məlumatı
-@router.callback_query(F.data == "game_info")
-async def game_info_callback(callback: CallbackQuery):
-    if callback.message is not None:
-        await callback.message.answer(
-            "🕹️ Komanda köstəbək oyunu üçün qrupda /game yazın.\n"
-            "Ən azı 3 nəfər olmalıdır. Qaydalar: Hamıya bir söz, birinə fərqli söz. Sonda səsvermə!\n\n"
-            "Komandan yoxdursa, narahat olma! 🎉\n"
-            "Səni və dostlarını əyləncəli və maraqlı bir oyun üçün Köstəbəksən Telegram qrupuna dəvət edirik:\n"
-            "👉 https://t.me/kostebeksen\n\n"
-            "Burada yeni insanlarla tanış ol, birgə oynamağın dadını çıxar və özünü sınaya bilərsən."
-        )
     await callback.answer()

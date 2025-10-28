@@ -9,24 +9,11 @@ router = Router()
 
 
 CHANNELS = {
-    "excel": {
-        "chat_id": -1002881149822,
-        "title": "Excel-i Birgə Öyrənək",
-        "price": 1000,
-        "description": (
-            "📌 Excel-i Birgə Öyrənək kanalı — Excel biliklərini inkişaf etdirmək və təlim mərkəzindən kənar özünüinkişaf edənlərə dəstək olmaq məqsədilə yaradılmış peşəkar platformadır.\n\n"
-            "🔹 Bu kanal Rüfət Babayev və Müslüm Hüseynli tərəfindən hazırlanmış öyrədici və dəstəkləyici məkandır.\n\n"
-            "Burada siz:\n"
-            "✔️ Excel üzrə özünüz məşğul ola biləcəyiniz təlim faylları,\n"
-            "✔️ Hər dərsə uyğun tapşırıqlar və praktiki nümunələr,\n"
-            "✔️ Daimi online chat vasitəsilə suallarınızı geniş publikaya ünvanlamaq və Mentorlarla, həmçinin digər iştirakçılarla müzakirə etmək imkanını əldə edirsiniz.\n\n"
-            "💡 İştirakçılar burada birgə öyrənir, təcrübə paylaşır və biliklərini sistemli şəkildə artırırlar."
-        )
-    },
+
     "sosial_muhit": {
         "chat_id": -1002299496126,
         "title": "Sosial Mühit",
-        "price": 200,
+        "price": 0,
         "description": (
             "📌 Sosial Mühit kanalı — Rüfət Babayev tərəfindən yaradılmış peşəkar platforma\n\n"
             "Burada sosial sahə üzrə qanunvericiliklə bağlı bütün PDF sənədləri bir araya toplanıb. Kanal vasitəsilə siz:\n\n"
@@ -48,7 +35,7 @@ async def channel_access_menu(callback: CallbackQuery, state: FSMContext):
     balance = get_balance(user_id)
     keyboard = InlineKeyboardMarkup(
         inline_keyboard=[
-            [InlineKeyboardButton(text="📊 Excel-i Birgə Öyrənək", callback_data="info_excel")],
+
             [InlineKeyboardButton(text="🌐 Sosial Mühit", callback_data="info_sosial_muhit")],
             [InlineKeyboardButton(text="🏠 Əsas menyuya qayıt", callback_data="main_menu")]
         ]
@@ -81,10 +68,10 @@ async def channel_info_callback(callback: CallbackQuery):
     await callback.message.answer(msg, reply_markup=keyboard)
     await callback.answer()
 
-@router.callback_query(lambda c: c.data in ["access_excel", "access_sosial_muhit"])
+@router.callback_query(lambda c: c.data in ["access_sosial_muhit"])
 async def access_channel(callback: CallbackQuery):
     user_id = callback.from_user.id
-    key = "excel" if callback.data == "access_excel" else "sosial_muhit"
+    key = "sosial_muhit"
     data = CHANNELS[key]
     balance = get_balance(user_id)
     if balance < data["price"]:
